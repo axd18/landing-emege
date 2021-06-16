@@ -6,24 +6,24 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        {/* <p>
+          Probando plantilla
+        </p> */}
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
         <a
           className="App-link"
           href="https://emegecalefaccion.com.ar"
           target="_blank"
           rel="noopener noreferrer"
         >
-          test link a emege
+          testeando link a emege
         </a>
       </header>
     </div>
