@@ -17,6 +17,14 @@ function App() {
         >
           Learn React
         </a>
+        <a
+          className="App-link"
+          href="https://emegecalefaccion.com.ar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          test link a emege
+        </a>
       </header>
     </div>
   );
