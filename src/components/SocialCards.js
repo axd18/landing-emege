@@ -21,11 +21,12 @@ const SocialCards = () => {
                 Conocé nuestros productos
               </h2>
               <p className="leading-relaxed text-white">
-                Para que estés al tanto de las novedades, información de los
-                productos, tips de mantenimiento, recetas y participar de
-                sorteos.
+                En nuestra web encontrarás toda la información de producto que necesitás y el contacto al servicio técnico.
               </p>
-              <a
+              <div class="mt-12">
+            <a href="https://emege.com.ar/" target="_blank" className="bg-transparent border text-white px-8 py-3 font-medium rounded-md hover:bg-yellow-600 hover:text-primary hover:border-transparent transition">ir a la web</a>
+        </div>
+              {/* <a
                 href="https://emege.com.ar/"
                 target="_blank"
                 className="mt-3 text-yellow-500 inline-flex items-center"
@@ -42,7 +43,7 @@ const SocialCards = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="flex flex-wrap -mx-2">
