@@ -6,7 +6,7 @@ const SocialCards = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="w-full grid justify-items-center">
-        <img src={logo} className="w-1/3 md:w-1/5"/>
+        <img src={logo} alt="logo" className="w-1/3 md:w-1/5"/>
       </div>
       <div className="container px-5 py-12 mx-auto flex flex-wrap">
         <div className="lg:w-2/3 mx-auto">
@@ -24,7 +24,7 @@ const SocialCards = () => {
                 En nuestra web encontrarás toda la información de producto que necesitás y el contacto al servicio técnico.
               </p>
               <div class="mt-12">
-            <a href="https://emege.com.ar/" target="_blank" className="bg-transparent border text-white px-8 py-3 font-medium rounded-md hover:bg-yellow-600 hover:text-primary hover:border-transparent transition">ir a la web</a>
+            <a href="https://emege.com.ar/" rel="noreferrer" target="_blank" className="bg-transparent border text-white px-8 py-3 font-medium rounded-md hover:bg-yellow-600 hover:text-primary hover:border-transparent transition">ir a la web</a>
         </div>
               {/* <a
                 href="https://emege.com.ar/"
@@ -66,6 +66,7 @@ const SocialCards = () => {
                   <div>
                     <a
                       href="https://www.instagram.com/emegearg/"
+                      rel="noreferrer"
                       target="_blank"
                       className="mt-3 text-yellow-500 inline-flex items-center"
                     >
@@ -86,6 +87,7 @@ const SocialCards = () => {
                   <div>
                     <a
                       href="https://www.facebook.com/Emeg%C3%A9-Calefacci%C3%B3n-296892737661764/"
+                      rel="noreferrer"
                       target="_blank"
                       className="mt-3 text-yellow-500 inline-flex items-center"
                     >
