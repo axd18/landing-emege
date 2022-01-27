@@ -85,7 +85,7 @@ const SocialCards = () => {
                   </div>
                   <div>
                     <a
-                      href="https://www.instagram.com/emegearg/"
+                      href="https://www.facebook.com/Emeg%C3%A9-Calefacci%C3%B3n-296892737661764/"
                       target="_blank"
                       className="mt-3 text-yellow-500 inline-flex items-center"
                     >
